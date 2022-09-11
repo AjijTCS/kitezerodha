@@ -6,6 +6,6 @@ public class A {
 public static void main(String[] args) {
 	WebDriver driver=WebDriverManager.chromedriver().create();
 	driver.get("https://www.shaadi.com/");
-	
+	System.out.println("Ajij");
 }
 }
